@@ -1,5 +1,5 @@
 {% set name = "pymatgen-io-fleur" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pymatgen-io-fleur-{{ version }}.tar.gz
-  sha256: 4865a3e754bc66e879782c3cddf843efe7eb5466319878b268238d1d56a6bfb0
+  sha256: 22528705e26217e9959b4326b966b3cbfc16b2d20065c8f97dca0b20d6be3bb2
 
 build:
   number: 0
