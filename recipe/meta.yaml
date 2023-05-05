@@ -1,5 +1,5 @@
 {% set name = "pymatgen-io-fleur" %}
-{% set version = "0.4.1" %}
+{% set version = "0.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pymatgen-io-fleur-{{ version }}.tar.gz
-  sha256: 22528705e26217e9959b4326b966b3cbfc16b2d20065c8f97dca0b20d6be3bb2
+  sha256: 666ddca1c6d60d0be83c01eff25bc1e0c31872c5caf2c434b505d8088ee9f299
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - python >=3.8
     - flit-core >=3.4,<4
   run:
-    - masci-tools >=0.11.3,~=0.11
+    - masci-tools >=0.13
     - pymatgen >=2022.7.8
     - python >=3.8
 
