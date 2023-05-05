@@ -1,11 +1,11 @@
-About pymatgen-io-fleur
-=======================
+About pymatgen-io-fleur-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymatgen-io-fleur-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/pymatgen-io-fleur/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymatgen-io-fleur-feedstock/blob/main/LICENSE.txt)
 
 Summary: A pymatgen add-on for IO for the fleur code.
 
